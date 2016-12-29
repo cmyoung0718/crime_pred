@@ -1,1 +1,3 @@
-# crime_pred
+# Crime Level Predictions
+
+Crime level of an area in Seattle, WA was predicted using a K-nearest neighbors (KNN) model. Data was obtained from data.seattle.gov. Longitude and latitude were used as the only two features. Due to the spatial nature of the features, KNN was an obvious choice for the classification model. The code was added to a Django framework and predictions are available via post requests containing a longitude and latitude within Seattle.
